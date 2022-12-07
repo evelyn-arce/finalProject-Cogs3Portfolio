@@ -1,0 +1,116 @@
+/* COGS3 studyBuddy specific styles go here. */
+#title{
+  background-color: #051937;
+}
+#section{
+  background-color: #051937;
+}
+.header{
+  color: #717197;
+}
+.header2{
+  color: #fbfdc2;
+  padding-left: 10%;
+}
+.paragraph1{
+  padding-left:10%;
+}
+
+h1 {
+  font-family: "Sue Ellen Francisco"; 
+  line-height:1.5; 
+  font-size: 3.5rem;
+  font-weight:bolder;
+  color:#051937;
+} 
+
+h2{
+  color:#051937;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5;
+  font-weight: bold; 
+}
+h3{
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  color: #051937;
+}
+
+p{
+  color: rgb(189, 176, 176);
+}
+.li1{
+  color:rgb(189, 176, 176);
+  padding-left: 13%;
+}
+
+/* Navigation Bar */
+.navbar { 
+  padding-left: 10%;
+  padding-bottom: 1%;
+  padding-top: 3%;
+  background-color: #d5bc6a;
+}
+.navbar-brand { 
+  font-family: "Satisfy"; 
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #051937;
+}
+.navbar-item {
+  font-family: "Roboto Codensed"; 
+  font-size:large;
+  padding: 0 18px;
+}
+.navbar-link{
+  font-family: "Roboto Codensed";
+font-size: 1.2 rem;
+}
+
+/* Title Image*/
+
+.title-image{
+  width: 80%;;
+  position: absolute;
+  padding-left: 30%;
+  padding-top: 30%;
+}
+
+/* Section2 */
+#sectiona{
+  background-color: #d5bc6a;
+  color: #294b8b; 
+}
+.paragraphCta{
+  color:#294b8b; 
+  padding-left: 20%;
+}
+.li2{
+  color:#294b8b;
+  padding-left: 25%;
+}
+
+.cta-heading{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+#footer {
+padding: 7% 15%; 
+text-align: center;
+}
+
+/* Media Query Section */
+@media (max-width:1000px){
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}

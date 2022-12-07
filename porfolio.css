@@ -1,0 +1,113 @@
+
+/* COGS3 Portfolio specific styles go here. */
+.container-fluid{
+  padding-right: 15%;
+  padding-left: 5%;
+  background-color: #051937;
+}
+
+h1 {
+  font-family: "Sue Ellen Francisco"; 
+  line-height:1.5; 
+  font-size: 3.5rem;
+  font-weight:bolder;
+  color:#051937;
+}
+h2{
+  color:#fff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.5;
+  font-weight: bold; 
+}
+h3{
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  color: #d5bc6a;
+}
+
+p{
+  color:#051937;
+}
+
+/* Navigation Bar */
+.navbar { 
+  padding-left: 10%;
+  padding-bottom: 1%;
+  padding-top: 3%;
+  background-color: #d5bc6a;
+}
+.navbar-brand { 
+  font-family: "Satisfy"; 
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #051937;
+}
+.navbar-item {
+  font-family: "Roboto Codensed"; 
+  font-size:large;
+  padding: 0 18px;
+}
+.navbar-link{
+  font-family: "Roboto Codensed";
+font-size: 1.2 rem;
+}
+/* Download Button*/
+
+.download-button{
+margin: 5% 5% 5% 0;
+}
+/* Title Image*/
+
+.title-image{
+  width: 210%;
+  align-items: center;
+  padding-left: 25%;
+}
+
+/* Call To Action CTA */
+#cta{
+  background-color: #d5bc6a;
+  color: #fff; 
+  padding-top: 5%; 
+  padding-bottom: 1%;
+  padding-left: 5%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.cta-heading{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+#footer {
+padding: 3% 3%; 
+text-align: center;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+
+/* Media Query Section */
+@media (max-width:1000px){
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.icon{
+  Color:black; 
+  margin-bottom:2rem;
+}
+.icon:Hover{
+  Color: blue;
+
+}
